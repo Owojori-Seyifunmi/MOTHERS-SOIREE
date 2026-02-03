@@ -24,7 +24,7 @@
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
     
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mother.css">
 </head>
 <body>
     <main>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="detail-item">
                         <span class="detail-icon">✦</span>
-                        <span class="detail-text">5:00 PM - 8:30 PM</span>
+                        <span class="detail-text">4:00 PM - 8:30 PM</span>
                     </div>
                     <div class="detail-item">
                         <span class="detail-icon">✦</span>
@@ -90,7 +90,7 @@
                     <div class="image-column order-2">
                         <div class="image-wrapper">
                             <div class="image-blur-bg"></div>
-                            <img src="images/gallery3.jpg" alt="Mothers celebrating together" class="section-image">
+                            <img src="images/mother2.jpeg" alt="Mothers celebrating together" class="section-image">
                             <div class="decorative-frame frame-tl"></div>
                             <div class="decorative-frame frame-br"></div>
                         </div>
@@ -267,7 +267,7 @@
                                 <li><span class="list-icon">✦</span> Pearls (necklace, earrings, or bracelet)</li>
                                 <li><span class="list-icon">✦</span> Fascinator or elegant hat</li>
                                 <li><span class="list-icon">✦</span> Gloves (optional but lovely)</li>
-                                <li><span class="list-icon">✦</span> Closed-toe heels or elegant flats</li>
+                                <li><span class="list-icon">✦</span> Closed-toe heels or elegant shoes</li>
                             </ul>
                         </div>
                     </div>
@@ -302,7 +302,7 @@
         <!-- Reserve Section -->
         <section id="reserve" class="section-padding bg-secondary-light">
             <div class="bg-image-overlay">
-                <img src="images/gallery2.jpg" alt="" class="bg-image">
+                <img src="images/mother2.jpeg" alt="" class="bg-image">
             </div>
             
             <div class="container reserve-container">
@@ -376,9 +376,11 @@
                             </div>
                         </div>
                         
-                        <button class="btn btn-primary btn-full" onclick="scrollToBookingForm()">
-                            Reserve Your Seat — £55
-                        </button>
+                        <a href="https://buy.stripe.com/8x200j2RdeDk8Ofbv24wM0d">
+                            <button class="btn btn-primary btn-full">
+                                Reserve Your Seat — £55
+                            </button>
+                        </a>
                         
                         <p class="pricing-fine-print">
                             Non-refundable. Transferable.<br>
@@ -409,14 +411,15 @@
                 <div class="accordion">
                     <div class="accordion-item">
                         <button class="accordion-header" onclick="toggleAccordion(this)">
-                            <span>What should I wear?</span>
+                            <span>Can I bring my child?</span>
                             <i data-lucide="chevron-down" class="accordion-icon"></i>
                         </button>
                         <div class="accordion-content">
-                            <p>Vintage elegance attire. Tea-length dresses, pearls, fascinators, gloves. Choose any of our event colours: Buttercup Yellow, Lavender, Soft Peach, Meadow Green, or Cool Aqua. Think 1950s sophistication and grace.</p>
+                            <p>This is an adults-only evening designed for mothers to be fully present and celebrated. We recommend arranging childcare so you can enjoy the experience without distraction.</p>
                         </div>
                     </div>
                     
+
                     <div class="accordion-item">
                         <button class="accordion-header" onclick="toggleAccordion(this)">
                             <span>Can I bring a guest?</span>
@@ -453,7 +456,7 @@
         <!-- Final CTA Section -->
         <section id="final-cta" class="final-cta-section">
             <div class="final-cta-bg">
-                <img src="images/gallery1.jpg" alt="Women celebrating at The Flourishing Corner">
+                <img src="images/cta.jpeg" alt="Women celebrating at The Flourishing Corner">
                 <div class="final-cta-overlay"></div>
             </div>
             
@@ -465,14 +468,16 @@
                     An experience you won't forget.
                 </p>
                 
-                <button class="btn btn-primary btn-lg" onclick="scrollToBookingForm()">
-                    Reserve Your Seat Now
-                </button>
+                <a href="https://buy.stripe.com/8x200j2RdeDk8Ofbv24wM0d">
+                    <button class="btn btn-primary btn-lg" >
+                        Reserve Your Seat Now
+                    </button>
+                </a>
             </div>
         </section>
 
         <!-- Booking Form Section -->
-        <section id="booking-form" class="section-padding bg-primary">
+        <!-- <section id="booking-form" class="section-padding bg-primary">
             <div class="container booking-container">
                 <div id="booking-success" class="booking-success hidden">
                     <div class="success-icon">
@@ -568,7 +573,7 @@
                     </form>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Footer -->
         <footer id="footer" class="footer">
@@ -602,7 +607,7 @@
         </footer>
     </main>
     
-    <script src="script.js"></script>
+    <script src="mother.js"></script>
     <script>
         // Initialize Lucide icons
         lucide.createIcons();
